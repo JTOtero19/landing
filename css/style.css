@@ -1,0 +1,149 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+div {
+  display: block;
+}
+h1, h2, h3, h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+p {
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Montserrat', sans-serif;
+  ;
+}
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  display: flex;
+}
+.texto-center {
+  width: 900px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+.texto p {
+  font-weight: 550;
+}
+.imagen {
+  background-image: url("../images/watercolor-4116932222222.png");
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.texto {
+  text-align: left;
+  margin: 100px;
+}
+.texto h2 {
+  text-align: center;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: #4d84c7;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #396293;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+}
+.card img{
+  width: 150px;
+}
+img {
+  overflow-clip-margin: content-box;
+
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #5c5c5c;
+  margin: 1em 100px;
+  padding: 0;
+}
+.hr-two{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #5c5c5c;
+  margin: 1em 0px;
+  padding: 0;
+}
+
+.vl {
+  border-left: 1px solid #a1a1a1;
+  height: 240px;
+  position: absolute;
+  left: 38.5%;
+  margin-left: -3px;
+  top: 690px;
+}
+.vl-card-two {
+  border-left: 1px solid #a1a1a1;
+  height: 240px;
+  position: absolute;
+  left: 63.5%;
+  margin-left: -3px;
+  top: 690px;
+}
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: white;
+}
+.footer a {
+  font-size: 30px;
+  color: black;
+}
+.footer a:hover {
+  cursor: pointer;
+}
+.footer p {
+  font-size: 12px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
